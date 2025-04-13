@@ -1,22 +1,29 @@
-import React from 'react';
-import './Header.css'; // Assuming you will create a CSS file for header styles
+import React from "react";
 
-const Header = () => {
-    return (
-        <header className="header">
-            <div className="logo">
-                <h1>Block Builders</h1>
+export const Header = (props) => {
+  return (
+    <header id="header">
+      <div className="intro">
+        <div className="overlay">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 col-md-offset-2 intro-text">
+                <h1>
+                  {props.data ? props.data.title : "Loading"}
+                  <span></span>
+                </h1>
+                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <a
+                  href="#features"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  Learn More
+                </a>{" "}
+              </div>
             </div>
-            <nav className="navigation">
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    );
+          </div>
+        </div>
+      </div>
+    </header>
+  );
 };
-
-export default Header;

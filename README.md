@@ -1,74 +1,34 @@
-# Node modules
-node_modules/
+# React JS Landing Page Template
 
-# Build output
-build/
-dist/
+**
 
-# System files
-.DS_Store
-Thumbs.db
+# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+**
 
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# Editor folders
-.vscode/
-.idea/
+### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
 
-# Mac system files
-*.DS_Store
+## Description
+This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+All 'visual' data can be easily modified by changing the data.json file.
 
-# Coverage directory used by tools like istanbul
-coverage/
+## Make it Yours!
+### 1. Preps
+You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
 
-# Dependency directories
-jspm_packages/
+### 2. Clone Files
+After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
+### 3. Add your own data 
+Change the data in the ```data.json``` file as well as add any images to ```public/img/```
+You can also change styles by modifying the ```public/css``` files.
+If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
 
-# Optional npm cache directory
-.npm/
+## Like this project?
+<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
 
-# Optional eslint cache
-.eslintcache
+## Credits
+##### Free CSS 
+<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
 
-# Testing
-jest-cache/
-jest-test-results.json
-
-# Webpack cache
-.cache/
-webpack-cache/
-
-# Parcel cache
-.cache/
-.parcel-cache/
-
-# Next.js
-.next/
-
-# Storybook
-out/
-.storybook-out/
-
-# VSCode settings
-*.code-workspace
-
-# Lint results
-report.html
-
-# Local firebase emulators
-firebase-debug.log
-.firebaserc
-
-# Misc
-*.tgz
-*.log
+##### Issaaf kattan
