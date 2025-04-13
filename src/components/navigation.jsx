@@ -9,57 +9,53 @@ export const Navigation = (props) => {
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
+            data-target="#navbar-principal"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Mostrar navegación</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+            HN Piedra Artificial
+          </a>
         </div>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+        <div className="collapse navbar-collapse" id="navbar-principal">
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                Features
+                Ventajas
               </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                About
+                Sobre Nosotros
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                Servicios
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                Galería
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+                Opiniones
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#team" className="page-scroll">
-                Team
+                Nuestro Equipo
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Contacto
               </a>
             </li>
           </ul>

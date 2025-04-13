@@ -1,102 +1,111 @@
 {
-  "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-  },
-  "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
-  },
+"Header": {
+  "title": "Soluciones en Piedra Artificial, Piscinas y Acabados a Medida",
+  "paragraph": "Creamos piezas duraderas con acabados artesanales que resaltan en cada proyecto. Más de 10 años de experiencia nos respaldan."
+}
+,
+"About": {
+  "paragraph": "Somos especialistas en la fabricación e instalación de piedra artificial, piscinas in situ y acabados personalizados. Con años de experiencia en el sector, ofrecemos soluciones resistentes, estéticas y adaptadas a cada cliente. Trabajamos con materiales de alta calidad y un equipo comprometido con la excelencia en cada detalle.",
+  "Why": [
+    "Piedra artificial hecha a medida",
+    "Construcción de piscinas in situ",
+    "Acabados duraderos y elegantes",
+    "Atención personalizada"
+  ],
+  "Why2": [
+    "Equipo con experiencia",
+    "Materiales de alta calidad",
+    "Soluciones adaptadas al espacio",
+    "Entrega puntual garantizada"
+  ]
+}
+,
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Plato de Ducha",
+      "largeImage": "img/gallery/platoducha.jpg",
+      "smallImage": "img/gallery/platoducha.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Cubre Muros",
+      "largeImage": "img/gallery/cubremuros.jpg",
+      "smallImage": "img/gallery/cubremuros.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Piscina Redonda",
+      "largeImage": "img/gallery/piscinaredonda.jpg",
+      "smallImage": "img/gallery/piscinaredonda.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Piscina Recta",
+      "largeImage": "img/gallery/piscinasrectas.jpg",
+      "smallImage": "img/gallery/piscinasrectas.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Vierte Aguas",
+      "largeImage": "img/gallery/vierteaguas.jpg",
+      "smallImage": "img/gallery/vierteaguas.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "",
+      "largeImage": "img/gallery/imagen.jpg",
+      "smallImage": "img/gallery/imagen.jpg"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
+"Services": [
+  {
+    "icon": "fa fa-cubes",
+    "name": "Piedra Artificial a Medida",
+    "text": "Diseñamos y colocamos piedra artificial de alta calidad, ideal para jardines, exteriores y detalles arquitectónicos."
+  },
+  {
+    "icon": "fa fa-th-large",
+    "name": "Albardillas Personalizadas",
+    "text": "Fabricación y montaje de albardillas decorativas y funcionales para coronación de muros y piscinas."
+  },
+  {
+    "icon": "fa fa-life-ring",
+    "name": "Piscinas In Situ",
+    "text": "Construcción de piscinas directamente en obra, adaptadas al espacio y necesidades de cada cliente."
+  },
+  {
+    "icon": "fa fa-cubes",
+    "name": "Cubremuros de Piedra",
+    "text": "Protege y embellece tus muros con cubremuros resistentes, con acabados estéticos y duraderos."
+  },
+  {
+    "icon": "fa fa-tint",
+    "name": "Vierteaguas",
+    "text": "Instalación de vierteaguas que previenen humedades y aportan un acabado elegante a tus fachadas."
+  },
+  {
+    "icon": "fa fa-cutlery",
+    "name": "Encimeras de Obra",
+    "text": "Encimeras artesanales para exteriores e interiores, resistentes a la intemperie y al uso diario."
+  },
+  {
+    "icon": "fa fa-th",
+    "name": "Terrazo a Medida",
+    "text": "Suelos de terrazo duraderos y estéticos, ideales para zonas comunes, patios y exteriores."
+  },
+  {
+    "icon": "fa fa-th-list",
+    "name": "Baldosa Porosa y Lavada",
+    "text": "Fabricación y colocación de baldosas con acabado poroso o lavado, perfectas para zonas antideslizantes."
+  },
+  {
+    "icon": "fa fa-shower",
+    "name": "Lavabos de Obra",
+    "text": "Lavabos integrados en obra, funcionales y con acabados modernos y personalizados."
+  },
+  {
+    "icon": "fa fa-stairs",
+    "name": "Peldaños de Escalera",
+    "text": "Peldaños resistentes y seguros, diseñados para integrarse perfectamente en cualquier tipo de escalera."
+  }
+]
+
+,
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -159,26 +168,27 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+"Features": [
+  {
+    "icon": "fa fa-certificate",
+    "title": "Calidad Garantizada",
+    "text": "Trabajamos con materiales duraderos y acabados artesanales que resisten el paso del tiempo y el clima."
+  },
+  {
+    "icon": "fa fa-wrench",
+    "title": "Soluciones a Medida",
+    "text": "Nos adaptamos a las necesidades específicas de cada cliente, con diseños personalizados en cada proyecto."
+  },
+  {
+    "icon": "fa fa-users",
+    "title": "Atención Personalizada",
+    "text": "Asesoramiento directo en cada etapa: desde la planificación hasta la entrega final del trabajo."
+  },
+  {
+    "icon": "fa fa-magic",
+    "title": "Detalles que Marcan",
+    "text": "Cuidamos los acabados y los pequeños detalles para lograr resultados únicos, estéticos y funcionales."
+  }
+]
+
 }

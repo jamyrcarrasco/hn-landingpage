@@ -104,7 +104,8 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #3A6073, #16222A);
+
   content: "";
   transition: width 0.2s;
 }
@@ -152,7 +153,8 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #3A6073, #16222A);
+
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -167,7 +169,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -181,11 +183,26 @@ hr {
 .btn-custom:focus,
 .btn-custom.focus,
 .btn-custom:active,
-.btn-custom.active {
+/* .btn-custom.active {
   color: #fff;
   background-image: none;
   background-color: #6372ff;
+} */
+.btn-custom {
+  background: linear-gradient(to right, #3A6073, #16222A);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  padding: 14px 34px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
+.btn-custom:hover {
+  background: linear-gradient(to right, #27AE60, #1ABC9C); /* verde profesional */
+  color: #fff;
+}
+
 .btn:active,
 .btn.active {
   background-image: none;
@@ -208,7 +225,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/contratista2.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -255,9 +272,9 @@ header .intro-text {
   color: #fff;
   width: 100px;
   height: 100px;
-  padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #3A6073, #16222A);
+
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +293,8 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #3A6073, #16222A);
+
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -310,7 +328,8 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #3A6073, #16222A);
+
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +353,8 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #3A6073, #16222A);
+
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -368,11 +388,7 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background: rgba(42, 51, 59, 0.7);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -460,7 +476,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #3A6073, #16222A);
+
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -604,3 +621,217 @@ label {
     margin: 50px 0;
   }
 }
+
+#services i.fa {
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  padding: 40px 0;
+  background-color: #243340; /* más claro que #2E3A48 */
+  border-radius: 50%;
+  color: #ede3e0 !important; /* un gris casi blanco */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+
+#services i.fa:hover {
+  background: linear-gradient(to right, #27AE60, #1ABC9C); /* verde vibrante */
+  color: #fff;
+  transform: scale(1.1);
+}
+
+
+/* Features Section - Estilos personalizados */
+#features {
+  background: #f6f6f6;
+  padding: 100px 0;
+}
+
+.feature-item {
+  margin-bottom: 40px;
+}
+
+.feature-icon {
+  font-size: 38px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #5ca9fb, #6372ff);
+  color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  display: inline-block;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.feature-icon:hover {
+  background: linear-gradient(to right, #27ae60, #1abc9c);
+  transform: scale(1.1);
+}
+
+#features .intro {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+#services .aos-item {
+  margin-bottom: 30px;
+}
+
+#about {
+  background: #f6f6f6;
+}
+
+#about .about-text h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#about .about-text h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#about .list-style ul li {
+  margin-bottom: 12px;
+  color: #444;
+  font-size: 15px;
+  position: relative;
+  padding-left: 24px;
+}
+
+#about .list-style ul li::before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #27ae60;
+}
+
+/* Galería - Ajuste automático */
+.gallery-img {
+  width: 100%;
+  height: 250px; /* o usa 300px si prefieres más altura */
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor para mantener separación entre imágenes */
+.portfolio-items > div {
+  margin-bottom: 30px;
+}
+
+.hover-bg {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.hover-bg .gallery-img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-bg:hover .gallery-img {
+  transform: scale(1.05);
+}
+
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 51, 59, 0.7);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-text h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hover-bg:hover .hover-text {
+  opacity: 1;
+}
+
+.intro-text h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.intro-text p {
+  font-size: 20px;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  right: 70px;
+  background: #2e3a48;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(0);
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+  opacity: 1;
+  transform: translateY(-4px);
+}
+
+
+
