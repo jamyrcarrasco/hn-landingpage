@@ -36,7 +36,7 @@ const App = () => {
       <Gallery data={landingPageData.Gallery} />
       {/* <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+      {/* <Contact data={landingPageData.Contact} /> */}
       <a
         href="https://wa.me/+34644508702?text=Hola%20estoy%20interesado%20en%20sus%20servicios"
         className="whatsapp-float"
