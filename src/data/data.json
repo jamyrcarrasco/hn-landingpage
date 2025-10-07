@@ -1,111 +1,119 @@
 {
-"Header": {
-  "title": "Soluciones en Piedra Artificial, Piscinas y Acabados a Medida",
-  "paragraph": "Creamos piezas duraderas con acabados artesanales que resaltan en cada proyecto. Más de 10 años de experiencia nos respaldan."
-}
-,
-"About": {
-  "paragraph": "Somos especialistas en la fabricación e instalación de piedra artificial, piscinas in situ y acabados personalizados. Con años de experiencia en el sector, ofrecemos soluciones resistentes, estéticas y adaptadas a cada cliente. Trabajamos con materiales de alta calidad y un equipo comprometido con la excelencia en cada detalle.",
-  "Why": [
-    "Piedra artificial hecha a medida",
-    "Construcción de piscinas in situ",
-    "Acabados duraderos y elegantes",
-    "Atención personalizada"
-  ],
-  "Why2": [
-    "Equipo con experiencia",
-    "Materiales de alta calidad",
-    "Soluciones adaptadas al espacio",
-    "Entrega puntual garantizada"
-  ]
-}
-,
+  "Header": {
+    "title": "Soluciones en Piedra Artificial, Piscinas y Acabados a Medida",
+    "paragraph": "Creamos piezas duraderas con acabados artesanales que resaltan en cada proyecto. Más de 10 años de experiencia nos respaldan."
+  },
+  "About": {
+    "paragraph": "Somos especialistas en la fabricación e instalación de piedra artificial, piscinas in situ y acabados personalizados. Con años de experiencia en el sector, ofrecemos soluciones resistentes, estéticas y adaptadas a cada cliente. Trabajamos con materiales de alta calidad y un equipo comprometido con la excelencia en cada detalle.",
+    "Why": [
+      "Piedra artificial hecha a medida",
+      "Construcción de piscinas in situ",
+      "Acabados duraderos y elegantes",
+      "Atención personalizada"
+    ],
+    "Why2": [
+      "Equipo con experiencia",
+      "Materiales de alta calidad",
+      "Soluciones adaptadas al espacio",
+      "Entrega puntual garantizada"
+    ]
+  },
   "Gallery": [
     {
-      "title": "Plato de Ducha",
+      "title": "Plato de ducha de piedra",
       "largeImage": "img/gallery/platoducha.jpg",
-      "smallImage": "img/gallery/platoducha.jpg"
+      "smallImage": "img/gallery/platoducha.jpg",
+      "alt": "Detalle de plato de ducha fabricado en piedra artificial",
+      "description": "Plato de ducha antideslizante con acabado de piedra natural"
     },
     {
-      "title": "Cubre Muros",
+      "title": "Cubremuros artesanales",
       "largeImage": "img/gallery/cubremuros.jpg",
-      "smallImage": "img/gallery/cubremuros.jpg"
+      "smallImage": "img/gallery/cubremuros.jpg",
+      "alt": "Cubre muros en piedra artificial",
+      "description": "Coronación de muros con piezas artesanales resistentes a la intemperie"
     },
     {
-      "title": "Piscina Redonda",
+      "title": "Piscina redonda",
       "largeImage": "img/gallery/piscinaredonda.jpg",
-      "smallImage": "img/gallery/piscinaredonda.jpg"
+      "smallImage": "img/gallery/piscinaredonda.jpg",
+      "alt": "Piscina redonda de obra terminada en piedra",
+      "description": "Piscina circular acabada con piedra artificial a medida"
     },
     {
-      "title": "Piscina Recta",
+      "title": "Piscina rectangular",
       "largeImage": "img/gallery/piscinasrectas.jpg",
-      "smallImage": "img/gallery/piscinasrectas.jpg"
+      "smallImage": "img/gallery/piscinasrectas.jpg",
+      "alt": "Piscina rectangular con piedra artificial",
+      "description": "Piscina rectangular con revestimiento continuo y bordes suaves"
     },
     {
-      "title": "Vierte Aguas",
+      "title": "Vierteaguas a medida",
       "largeImage": "img/gallery/vierteaguas.jpg",
-      "smallImage": "img/gallery/vierteaguas.jpg"
+      "smallImage": "img/gallery/vierteaguas.jpg",
+      "alt": "Detalle de vierteaguas en piedra",
+      "description": "Canalización de agua con piezas hechas a medida"
     },
     {
-      "title": "",
+      "title": "Escalones en piedra",
       "largeImage": "img/gallery/imagen.jpg",
-      "smallImage": "img/gallery/imagen.jpg"
+      "smallImage": "img/gallery/imagen.jpg",
+      "alt": "Escalones en piedra artificial",
+      "description": "Escalones revestidos para exteriores con acabado antideslizante"
     }
   ],
-"Services": [
-  {
-    "icon": "fa fa-cubes",
-    "name": "Piedra Artificial a Medida",
-    "text": "Diseñamos y colocamos piedra artificial de alta calidad, ideal para jardines, exteriores y detalles arquitectónicos."
-  },
-  {
-    "icon": "fa fa-th-large",
-    "name": "Albardillas Personalizadas",
-    "text": "Fabricación y montaje de albardillas decorativas y funcionales para coronación de muros y piscinas."
-  },
-  {
-    "icon": "fa fa-life-ring",
-    "name": "Piscinas In Situ",
-    "text": "Construcción de piscinas directamente en obra, adaptadas al espacio y necesidades de cada cliente."
-  },
-  {
-    "icon": "fa fa-cubes",
-    "name": "Cubremuros de Piedra",
-    "text": "Protege y embellece tus muros con cubremuros resistentes, con acabados estéticos y duraderos."
-  },
-  {
-    "icon": "fa fa-tint",
-    "name": "Vierteaguas",
-    "text": "Instalación de vierteaguas que previenen humedades y aportan un acabado elegante a tus fachadas."
-  },
-  {
-    "icon": "fa fa-cutlery",
-    "name": "Encimeras de Obra",
-    "text": "Encimeras artesanales para exteriores e interiores, resistentes a la intemperie y al uso diario."
-  },
-  {
-    "icon": "fa fa-th",
-    "name": "Terrazo a Medida",
-    "text": "Suelos de terrazo duraderos y estéticos, ideales para zonas comunes, patios y exteriores."
-  },
-  {
-    "icon": "fa fa-th-list",
-    "name": "Baldosa Porosa y Lavada",
-    "text": "Fabricación y colocación de baldosas con acabado poroso o lavado, perfectas para zonas antideslizantes."
-  },
-  {
-    "icon": "fa fa-shower",
-    "name": "Lavabos de Obra",
-    "text": "Lavabos integrados en obra, funcionales y con acabados modernos y personalizados."
-  },
-  {
-    "icon": "fa fa-stairs",
-    "name": "Peldaños de Escalera",
-    "text": "Peldaños resistentes y seguros, diseñados para integrarse perfectamente en cualquier tipo de escalera."
-  }
-]
-
-,
+  "Services": [
+    {
+      "icon": "fa fa-cubes",
+      "name": "Piedra Artificial a Medida",
+      "text": "Diseñamos y colocamos piedra artificial de alta calidad, ideal para jardines, exteriores y detalles arquitectónicos."
+    },
+    {
+      "icon": "fa fa-th-large",
+      "name": "Albardillas Personalizadas",
+      "text": "Fabricación y montaje de albardillas decorativas y funcionales para coronación de muros y piscinas."
+    },
+    {
+      "icon": "fa fa-life-ring",
+      "name": "Piscinas In Situ",
+      "text": "Construcción de piscinas directamente en obra, adaptadas al espacio y necesidades de cada cliente."
+    },
+    {
+      "icon": "fa fa-cubes",
+      "name": "Cubremuros de Piedra",
+      "text": "Protege y embellece tus muros con cubremuros resistentes, con acabados estéticos y duraderos."
+    },
+    {
+      "icon": "fa fa-tint",
+      "name": "Vierteaguas",
+      "text": "Instalación de vierteaguas que previenen humedades y aportan un acabado elegante a tus fachadas."
+    },
+    {
+      "icon": "fa fa-cutlery",
+      "name": "Encimeras de Obra",
+      "text": "Encimeras artesanales para exteriores e interiores, resistentes a la intemperie y al uso diario."
+    },
+    {
+      "icon": "fa fa-th",
+      "name": "Terrazo a Medida",
+      "text": "Suelos de terrazo duraderos y estéticos, ideales para zonas comunes, patios y exteriores."
+    },
+    {
+      "icon": "fa fa-th-list",
+      "name": "Baldosa Porosa y Lavada",
+      "text": "Fabricación y colocación de baldosas con acabado poroso o lavado, perfectas para zonas antideslizantes."
+    },
+    {
+      "icon": "fa fa-shower",
+      "name": "Lavabos de Obra",
+      "text": "Lavabos integrados en obra, funcionales y con acabados modernos y personalizados."
+    },
+    {
+      "icon": "fa fa-stairs",
+      "name": "Peldaños de Escalera",
+      "text": "Peldaños resistentes y seguros, diseñados para integrarse perfectamente en cualquier tipo de escalera."
+    }
+  ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -168,27 +176,26 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-"Features": [
-  {
-    "icon": "fa fa-certificate",
-    "title": "Calidad Garantizada",
-    "text": "Trabajamos con materiales duraderos y acabados artesanales que resisten el paso del tiempo y el clima."
-  },
-  {
-    "icon": "fa fa-wrench",
-    "title": "Soluciones a Medida",
-    "text": "Nos adaptamos a las necesidades específicas de cada cliente, con diseños personalizados en cada proyecto."
-  },
-  {
-    "icon": "fa fa-users",
-    "title": "Atención Personalizada",
-    "text": "Asesoramiento directo en cada etapa: desde la planificación hasta la entrega final del trabajo."
-  },
-  {
-    "icon": "fa fa-magic",
-    "title": "Detalles que Marcan",
-    "text": "Cuidamos los acabados y los pequeños detalles para lograr resultados únicos, estéticos y funcionales."
-  }
-]
-
+  "Features": [
+    {
+      "icon": "fa fa-certificate",
+      "title": "Calidad Garantizada",
+      "text": "Trabajamos con materiales duraderos y acabados artesanales que resisten el paso del tiempo y el clima."
+    },
+    {
+      "icon": "fa fa-wrench",
+      "title": "Soluciones a Medida",
+      "text": "Nos adaptamos a las necesidades específicas de cada cliente, con diseños personalizados en cada proyecto."
+    },
+    {
+      "icon": "fa fa-users",
+      "title": "Atención Personalizada",
+      "text": "Asesoramiento directo en cada etapa: desde la planificación hasta la entrega final del trabajo."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Detalles que Marcan",
+      "text": "Cuidamos los acabados y los pequeños detalles para lograr resultados únicos, estéticos y funcionales."
+    }
+  ]
 }

@@ -2,40 +2,35 @@ import React from "react";
 
 export const Services = (props) => {
   return (
-    <div id="services" className="text-center">
+    <section id="services" className="text-center" aria-labelledby="services-heading">
       <div className="container">
         <div className="section-title">
-          <h2>Servicios</h2>
+          <h2 id="services-heading">Servicios</h2>
           <p>
-            Especialistas en piedra artificial, construcción de piscinas y
-            acabados duraderos. Calidad garantizada en cada proyecto.
+            Especialistas en piedra artificial, construcción de piscinas y acabados duraderos. Calidad garantizada en cada
+            proyecto.
           </p>
         </div>
-        <div className="row">
+        <ul className="row service-list">
           {props.data ? (
             props.data.map((d, i) => (
-              <div
-                key={`${d.name}-${i}`}
-                className="col-sm-6 col-md-6"
-               
-                data-aos="fade-up"
-                data-aos-delay={i * 100}
-              >
-                <i
-                  className={d.icon}
-                  style={{ fontSize: "36px", marginBottom: "10px", color: "#2c3e50" }}
-                ></i>
-                <div className="service-desc">
-                  <h3>{d.name}</h3>
-                  <p>{d.text}</p>
-                </div>
-              </div>
+              <li key={`${d.name}-${i}`} className="col-sm-6 col-md-6">
+                <article className="service-card" data-aos="fade-up" data-aos-delay={i * 100}>
+                  <span className="service-icon" aria-hidden="true">
+                    <i className={d.icon} />
+                  </span>
+                  <div className="service-desc">
+                    <h3>{d.name}</h3>
+                    <p>{d.text}</p>
+                  </div>
+                </article>
+              </li>
             ))
           ) : (
-            <p>Cargando servicios...</p>
+            <li className="col-xs-12">Cargando servicios...</li>
           )}
-        </div>
+        </ul>
       </div>
-    </div>
+    </section>
   );
 };

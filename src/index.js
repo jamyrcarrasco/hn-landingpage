@@ -4,14 +4,29 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const container = document.getElementById('root');
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+if (!container) {
+  throw new Error('Failed to find the root element to mount React app.');
+}
+
+const enableConcurrentRoot = typeof ReactDOM.createRoot === 'function';
+
+if (enableConcurrentRoot) {
+  ReactDOM.createRoot(container).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+} else {
+  ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    container
+  );
+}
+
+// Register the service worker to enable offline caching and faster reloads.
+// Learn more about potential trade-offs: https://bit.ly/CRA-PWA
+serviceWorker.register();
