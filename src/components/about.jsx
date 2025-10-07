@@ -2,18 +2,25 @@ import React from "react";
 
 export const About = (props) => {
   return (
-    <div id="about">
+    <section id="about" aria-labelledby="about-heading">
       <div className="container">
         <div className="row">
-          {/* Imagen del contratista o taller */}
           <div className="col-xs-12 col-md-6">
-            <img src="img/contratista.png" className="img-responsive" alt="Sobre nosotros" />
+            <figure className="about-figure">
+              <img
+                src="img/contratista.png"
+                className="img-responsive"
+                alt="Equipo de HN Piedra Artificial trabajando en un proyecto"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption className="sr-only">Nuestros artesanos especializados en acabados de piedra.</figcaption>
+            </figure>
           </div>
 
-          {/* Texto y beneficios */}
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>Sobre Nosotros</h2>
+              <h2 id="about-heading">Sobre Nosotros</h2>
               <p>{props.data ? props.data.paragraph : "Cargando información..."}</p>
 
               <h3>¿Por qué Elegirnos?</h3>
@@ -21,18 +28,14 @@ export const About = (props) => {
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
+                      ? props.data.Why.map((d, i) => <li key={`${d}-${i}`}>{d}</li>)
                       : "Cargando..."}
                   </ul>
                 </div>
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
+                      ? props.data.Why2.map((d, i) => <li key={`${d}-${i}`}>{d}</li>)
                       : "Cargando..."}
                   </ul>
                 </div>
@@ -41,6 +44,6 @@ export const About = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

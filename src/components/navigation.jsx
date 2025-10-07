@@ -1,8 +1,12 @@
 import React from "react";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav
+      id="menu"
+      className="navbar navbar-default navbar-fixed-top"
+      aria-label="Navegación principal"
+    >
       <div className="container">
         <div className="navbar-header">
           <button
@@ -10,11 +14,14 @@ export const Navigation = (props) => {
             className="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#navbar-principal"
+            aria-controls="navbar-principal"
+            aria-expanded="false"
+            aria-label="Abrir menú de navegación"
           >
             <span className="sr-only">Mostrar navegación</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
+            <span className="icon-bar" aria-hidden="true"></span>
+            <span className="icon-bar" aria-hidden="true"></span>
+            <span className="icon-bar" aria-hidden="true"></span>
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             HN Piedra Artificial
@@ -43,21 +50,6 @@ export const Navigation = (props) => {
                 Galería
               </a>
             </li>
-            {/* <li>
-              <a href="#testimonials" className="page-scroll">
-                Opiniones
-              </a>
-            </li> */}
-            {/* <li>
-              <a href="#team" className="page-scroll">
-                Nuestro Equipo
-              </a>
-            </li> */}
-            {/* <li>
-              <a href="#contact" className="page-scroll">
-                Contacto
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>
